@@ -1,0 +1,20 @@
+.btn {
+  white-space: nowrap;
+}
+
+dd {
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 575px) and (max-width: 765px) {
+  .match-info {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 574px) and (max-width: 765px) {
+  .table__info {
+    display: block;
+    width: 100% !important;
+  }
+}

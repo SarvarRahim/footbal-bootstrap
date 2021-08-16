@@ -10,10 +10,222 @@
 </head>
 <body>
 
-</body>
+  <div class="container">
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="img/patriots-logo.png" alt="Logo site" width="90" height="65">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Championship</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <h1 class="h2 m-auto text-center pt-5">Today's Match</h1>
+
+          <div class="row align-items-center">
+            <div class="col-12 col-sm-4 mt-5 mx-auto">
+              <div class="d-flex flex-column align-items-center">
+                <img class="bg-white" src="img/liverpool.svg" alt="FC Liverpool" width="200" height="220">
+              <h2 class="h3 my-3">Liverpool</h2>
+              <dl class="match-info d-flex mb-2">
+                <div class="d-flex mr-2">
+                  <dt class="font-weight-normal mr-1 text-secondary">Wins:</dt>
+                  <dd class="text-secondary mb-0">112 |</dd>
+                </div>
+                <div class="d-flex mr-2">
+                  <dt class="font-weight-normal mr-1 text-secondary">Loses:</dt>
+                  <dd class="text-secondary mb-0">3 |</dd>
+                </div>
+                <div class="d-flex">
+                  <dt class="font-weight-normal mr-1 text-secondary">Draws:</dt>
+                  <dd class="text-secondary mb-0">6</dd>
+                </div>
+              </dl>
+              <dl>
+                <div class="d-flex">
+                  <dt class="font-weight-normal text-secondary mr-2">Leaderboard position:</dt>
+                  <dd class="text-secondary">4</dd>
+                </div>
+              </dl>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-4 mt-5 d-flex flex-column" id="myTab">
+              <button class="btn btn-secondary mb-3" data-toggle="modal" data-target="#exampleModal">Watch match promo</button>
+              <a class="btn btn-secondary mb-3" href="#">Buy tickets</a>
+              <a class="btn btn-secondary mb-3" href="#">Buy merch</a>
+              <a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample">More info</a>
+            </div>
+
+            <div class="col-12 col-sm-4 mt-5">
+              <div class="d-flex flex-column align-items-center">
+                <img class="bg-white img-fluid" src="img/leicester-logo.png" alt="FC Liverpool" width="200" height="220">
+              <h2 class="h3 my-3">Leicester</h2>
+              <dl class="match-info d-flex mb-2">
+                <div class="d-flex mr-2">
+                  <dt class="font-weight-normal mr-1 text-secondary">Wins:</dt>
+                  <dd class="text-secondary mb-0">112 |</dd>
+                </div>
+                <div class="d-flex mr-2">
+                  <dt class="font-weight-normal mr-1 text-secondary">Loses:</dt>
+                  <dd class="text-secondary mb-0">3 |</dd>
+                </div>
+                <div class="d-flex">
+                  <dt class="font-weight-normal mr-1 text-secondary">Draws:</dt>
+                  <dd class="text-secondary mb-0">6</dd>
+                </div>
+              </dl>
+              <dl>
+                <div class="d-flex">
+                  <dt class="font-weight-normal text-secondary mr-2">Leaderboard position:</dt>
+                  <dd class="text-secondary">4</dd>
+                </div>
+              </dl>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse fade show active my-4" id="collapseExample">
+          <ul class="nav nav-tabs" id="myTab">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#goals">Top Goals</a>
+            </li>
+          </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="team" role="tabpanel" aria-labelledby="home-tab">
+               <div class="table__info row">
+                <div class="col-12 col-sm-6">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th class="font-weight-normal" scope="col">Name (job title)</th>
+                        <th class="font-weight-normal" scope="col">Age</th>
+                        <th class="font-weight-normal" scope="col">Nickn</th>
+                        <th class="font-weight-normal" scope="col">Employee</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="font-weight-normal" scope="row">Giacoma G Founder &</th>
+                        <td>40</td>
+                        <td>Peldi</td>
+                        <td>
+                          <input type="radio" name="radio">
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row">Marco bott Tuttofare</th>
+                        <td>38</td>
+                        <td></td>
+                        <td>
+                          <input type="checkbox" name="chekbox">
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row">Mariah Mac Better Half</th>
+                        <td>41</td>
+                        <td>Patt</td>
+                        <td>
+                          <input type="checkbox" name="chekbox" disabled>
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="col-12 col-sm-6">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th class="font-weight-normal" scope="col">Name (job title)</th>
+                        <th class="font-weight-normal" scope="col">Age</th>
+                        <th class="font-weight-normal" scope="col">Nickn</th>
+                        <th class="font-weight-normal" scope="col">Employee</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="font-weight-normal" scope="row">Giacoma G Founder &</th>
+                        <td>40</td>
+                        <td>Peldi</td>
+                        <td>
+                          <input type="radio" name="radio">
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row">Marco bott Tuttofare</th>
+                        <td>38</td>
+                        <td></td>
+                        <td>
+                          <input type="checkbox" name="chekbox">
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row">Mariah Mac Better Half</th>
+                        <td>41</td>
+                        <td>Patt</td>
+                        <td>
+                          <input type="checkbox" name="chekbox" disabled>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+               </div>
+              </div>
+
+              <div class="tab-pane fade" id="goals" role="tabpanel" aria-labelledby="home-tab">
+                <div class="py-4 border-bottom">
+                  <h3>Goals Command Liverpool</h3>
+                <a class="mr-4" href="https://youtu.be/idLt1zL5rnE">Full video</a>
+                <iframe width="150" height="100" src="https://www.youtube.com/embed/idLt1zL5rnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="py-4">
+                  <h3>Goals Command Leicester</h3>
+                <a class="mr-4" href="https://youtu.be/idLt1zL5rnE">Full video</a>
+                <iframe width="150" height="100" src="https://www.youtube.com/embed/idLt1zL5rnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/TQjqT17gO9A?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
 </body>
-
 </html>
